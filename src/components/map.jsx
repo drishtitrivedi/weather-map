@@ -10,7 +10,7 @@ import Weather from "./weather";
 import "./utils/weather.css";
 
 // API call : http://api.openweathermap.org/data/2.5/group?id=5936286,5955902,6162949,6113365,6180144,6121621,5932311&units=metric
-const openWeatherAPIKEY = "213f0cb4dee7d83c9a2cace4035acfa0";
+const openWeatherAPIKEY = "YOUR-API-KEY";
 
 class Map extends Component {
   state = {
@@ -93,7 +93,7 @@ class Map extends Component {
         <center>
           <div style={{ width: "60%" }}>
             <WrappedMap
-              googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyAw0C9PDnCUGecSKVP-fkKVqB4dciPamro"
+              googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=YOUR-GOOGLE-MAP-API-KEY"
               loadingElement={<div style={{ height: `70%` }} />}
               containerElement={<div style={{ height: `720px` }} />}
               mapElement={<div style={{ height: `100%` }} />}
